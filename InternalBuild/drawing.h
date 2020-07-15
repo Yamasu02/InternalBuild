@@ -1,16 +1,16 @@
 #pragma once
 
-#include "DirectXh.h"
-#include "Structs.h"
-#include "MainFuncs.h"
+//#include "DirectXh.h"
+//#include "Structs.h"
+//#include "MainFuncs.h"
 
 
 
 
-const char* cs = "Counter Strike: Global Offensive";
-
-Vec2 crosshair2D;
-int crosshairSize = 4;
+//const char* cs = "Counter Strike: Global Offensive";
+//const char* windowName = "Counter-Strike: Global Offensive";
+//Vec2 crosshair2D;
+//int crosshairSize = 4;
 
 
 

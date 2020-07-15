@@ -20,6 +20,10 @@ void* d3d9Device[119];
 BYTE EndSceneBytes[7]{ 0 };
 tEndScene oEndScene = nullptr;
 
+ID3DXLine* LineL;
+ID3DXFont* FontF;
+D3DCOLOR color2 = D3DCOLOR_ARGB(255, 0, 139, 87);
+D3DCOLOR color3 = D3DCOLOR_ARGB(255, 255, 0, 0);
 
 
 // callback to be called for each toplevel window

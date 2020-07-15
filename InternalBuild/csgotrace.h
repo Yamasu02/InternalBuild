@@ -1,6 +1,5 @@
 #pragma once
 #include "csgoVector.h"
-#include "MainFuncs.h"
 #include <cfloat>
 #include <cstdint>
 

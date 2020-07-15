@@ -28,14 +28,8 @@
     <Filter Include="Header Files\Hooks\minhooks\hde">
       <UniqueIdentifier>{c888d389-e346-4229-a0eb-52621e3f7b6c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\ImGui">
-      <UniqueIdentifier>{c9ffe356-cdc6-428c-9f52-33a8d7b4c0f1}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MainFuncs.h">
-      <Filter>Header Files\my_stuff</Filter>
-    </ClInclude>
     <ClInclude Include="Offsets.h">
       <Filter>Header Files\my_stuff</Filter>
     </ClInclude>
@@ -78,30 +72,6 @@
     <ClInclude Include="AutoWall.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="imgui shit\imconfig.h">
-      <Filter>Header Files\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui shit\imgui.h">
-      <Filter>Header Files\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui shit\imgui_impl_dx9.h">
-      <Filter>Header Files\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui shit\imgui_impl_win32.h">
-      <Filter>Header Files\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui shit\imgui_internal.h">
-      <Filter>Header Files\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui shit\imstb_rectpack.h">
-      <Filter>Header Files\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui shit\imstb_textedit.h">
-      <Filter>Header Files\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui shit\imstb_truetype.h">
-      <Filter>Header Files\ImGui</Filter>
-    </ClInclude>
     <ClInclude Include="DirectXh.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -110,6 +80,12 @@
     </ClInclude>
     <ClInclude Include="classes\cmd.h">
       <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryFuncs.h">
+      <Filter>Header Files\my_stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="UniversalFuncsh.h">
+      <Filter>Header Files\my_stuff</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -130,24 +106,6 @@
     </ClCompile>
     <ClCompile Include="minhook\hde\hde64.c">
       <Filter>Header Files\Hooks\minhooks\hde</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui shit\imgui.cpp">
-      <Filter>Header Files\ImGui</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui shit\imgui_demo.cpp">
-      <Filter>Header Files\ImGui</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui shit\imgui_draw.cpp">
-      <Filter>Header Files\ImGui</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui shit\imgui_impl_dx9.cpp">
-      <Filter>Header Files\ImGui</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui shit\imgui_impl_win32.cpp">
-      <Filter>Header Files\ImGui</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui shit\imgui_widgets.cpp">
-      <Filter>Header Files\ImGui</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
